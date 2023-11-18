@@ -1,0 +1,15 @@
+.model-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.img:hover .model-2 {
+    z-index: 3;
+}
+
+.heart:hover {
+    color: $color-discount;
+  }

@@ -1,1 +1,9 @@
-@import '~bootstrap/scss/bootstrap';
+// @import '~bootstrap/scss/bootstrap';
+
+@import './partials/variables';
+@import './partials/general';
+@import './partials/hover';
+@import './partials/tag';
+@import './partials/write';
+@import './partials/header';
+@import './partials/footer';

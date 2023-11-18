@@ -1,0 +1,35 @@
+.heart {
+    padding: 15px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: $text-primary-color;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.discount {
+    position: absolute;
+    font-size: 15px;
+    bottom: 150px;
+    padding: 5px;
+    background-color: $color-discount;
+    color: $text-primary-color;
+    z-index: 3;
+    left: 0;
+}
+
+.eco {
+    position: absolute;
+    font-size: 15px;
+    left: 50px;
+    bottom: 150px;
+    padding: 5px;
+    background-color: $color-eco;
+    color: $text-primary-color;
+    z-index: 3;
+}
+
+.single {
+    left: 0;
+}
