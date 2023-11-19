@@ -5,9 +5,9 @@
             <div class="bar">
                 <div class="menu">
                     <ul>
-                        <li><a href="#">Donna</a></li>
-                        <li><a href="#">Uomo</a></li>
-                        <li><a href="#">Bambino</a></li>
+                        <li><a href="{{ route('home') }}">Home</a></li>
+                        <li><a href="{{ route('products') }}">Products</a></li>
+                        <li><a href="{{ route('contacts') }}">Contacts</a></li>
                     </ul>
                 </div>
 

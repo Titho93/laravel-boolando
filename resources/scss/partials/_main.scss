@@ -1,0 +1,28 @@
+main {
+    .cards {
+        width: 100%;
+        padding-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card {
+        width: calc(100% / 3 - 20px );
+        height: 650px;
+        position: relative;
+        min-width: 250px;
+    }
+    .model {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        cursor: pointer;
+    }
+    .price {
+        font-size: 12px;
+    }
+    .low-price {
+        color: $color-discount;
+    }
+
+}
