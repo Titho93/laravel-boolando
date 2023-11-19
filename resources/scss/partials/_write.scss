@@ -2,6 +2,12 @@ body {
     font-family: $primary-font;
 }
 
+h1 {
+    text-align: center;
+    color: $primary-color;
+    padding: 50px;
+}
+
 h2 {
     font-size: 17px;
     color: $text-primary-color;
